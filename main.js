@@ -1,8 +1,14 @@
 let Images = document.querySelectorAll(".image");
 let display = document.getElementById('counter');
 let scoredisplay = document.getElementById('score');
+let helpbtn = document.getElementById("help");
+let aboutinfo = document.getElementById("about");
 let win = document.querySelector('.stop');
 
+helpbtn.onclick = function (){
+    aboutinfo.classList.toggle("hidden");
+    //console.log('about touched');
+}
 document.getElementById('next').onclick = ()=>{
     win.classList.add('hidden');
     Images.forEach((ele)=> {

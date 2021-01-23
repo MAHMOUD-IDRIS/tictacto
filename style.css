@@ -61,7 +61,7 @@ a {
     
 }
 
-#btnStartOVer {
+.btn {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
@@ -69,14 +69,14 @@ a {
     padding: .5em;
     background-color: #00ffff94;
     width: 30vw;
-    margin: 0 auto;
+    margin: 1em auto;
     cursor: pointer;
     box-shadow: 0 0  15px black;
     border-radius: 0.5em;
     width: 200px;
     text-transform: uppercase;
 }
-#btnStartOVer:hover {
+.btn:hover {
     box-shadow: 0 0  8px black;
 }
 
@@ -191,6 +191,11 @@ p span {
     justify-items: center;
     position: relative;
 }
-#sound {
-    visibility: hidden;
+
+.about {
+    position: absolute;
+    background-color: #cde4e4;
+    padding: 0.5em;
+    color: rgba(90, 90, 90, 0.9);
+    font-family: sans-serif;
 }
